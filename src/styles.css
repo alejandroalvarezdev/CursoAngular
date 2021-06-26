@@ -43,6 +43,7 @@
   .row{
     display: flex;
     
+    
 }
 .col{
   flex-grow: 0.5;
