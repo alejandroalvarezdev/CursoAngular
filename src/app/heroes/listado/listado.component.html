@@ -1,0 +1,11 @@
+<p>I´m alive!</p>
+
+<h2>Estado de Heroes</h2>
+<h3 *ngIf="heroeBorrado !== ''" > Heroe Borrado : <small>{{heroeBorrado}} </small></h3>
+<ul>
+    <li *ngFor="let heroe of heroes let i = index" >{{i+1}} {{heroe}} </li>
+</ul>
+
+
+<br>    
+<button (click)="eliminar()" >ELiminar</button>
